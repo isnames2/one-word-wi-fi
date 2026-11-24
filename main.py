@@ -1,13 +1,13 @@
 """One Word for Your Wi-Fi entry.
 
-Writes the single word that best describes home Wi-Fi to
-$MAKEFUN_OUTPUT_DIR/entry.txt. Pure standard library.
+Writes a single word to $MAKEFUN_OUTPUT_DIR/entry.txt.
+Pure standard library, no network, deterministic output.
 """
 
 import os
 from pathlib import Path
 
-WORD = "Moody"  # Wi-Fi works when it feels like it, and sulks when it doesn't
+WORD = "Moody"  # Home Wi-Fi works when it feels like it, and sulks when it doesn't.
 
 
 def main() -> None:
